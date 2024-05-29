@@ -9,7 +9,7 @@ const Card = ({ image, title, content, github }) => {
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">{title}</h2>
         <p className="text-gray-700 mb-2">{content}</p>
-        <a href={`${github}`} target='_blank' className=' text-green-900 font-bold' > GITHUB</a>
+        <a rel="noreferrer" href={`${github}`} target='_blank' className=' text-green-900 font-bold' > GITHUB</a>
       </div>
     </div>
   );
